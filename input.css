@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "bubbles";
+        src: url("src/assets/font.ttf") format("truetype");
+    }
+
+    html {
+        font-family: "bubbles";
+    }
+
+    button {
+        font-family: "Helvetica";
+    }
+}
