@@ -1,5 +1,12 @@
 @import "./assets/theme";
 
+@font-face {
+    font-family: "concert";
+    src: url("./assets/font.ttf") format('truetype');
+}
+
 body {
-    background-color: $white;
+    background-color: $background;
+    color: $text;
+    font-family: "concert";
 }
