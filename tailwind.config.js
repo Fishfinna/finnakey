@@ -5,7 +5,17 @@ export default {
     fontFamily: {
       sans: ["helvetica"],
     },
-    extend: {},
+    extend: {
+      animation: {
+        fade: "fadeOut 3s ease-in-out",
+      },
+      keyframes: (theme) => ({
+        fadeOut: {
+          "0%": { color: theme("colors.transparent") },
+          "100%": { color: theme("colors.neutral") },
+        },
+      }),
+    },
   },
   daisyui: {
     themes: [
