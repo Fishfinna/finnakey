@@ -8,11 +8,16 @@
         src: url("src/assets/font.ttf") format("truetype");
     }
 
+    @font-face {
+        font-family: "thin";
+        src: url("src/assets/Roboto.ttf") format("truetype");
+    }
+
     html {
         font-family: "bubbles";
     }
 
-    button {
-        font-family: "Helvetica";
+    button, h6 {
+        font-family: "thin";
     }
 }

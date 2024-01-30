@@ -3,7 +3,7 @@ export default {
   content: ["./src/**/*.{html,js,tsx,ts}"],
   theme: {
     fontFamily: {
-      sans: ["helvetica"],
+      sans: ["thin"],
     },
     extend: {
       animation: {
